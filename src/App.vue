@@ -1,8 +1,11 @@
-<script setup></script>
+<script setup>
+import DonorList from "./component/DonorList.vue"
+</script>
 
 <template>
-  <h1>You did it! now</h1>
- 
+ <div>
+    <DonorList />
+ </div>
 </template>
 
 <style scoped></style>
