@@ -8,13 +8,13 @@ const aPlusDonors = donors.filter(d => d.b_group === "A+");
 const availableCount = aPlusDonors.filter(d => d.available).length;
 
 // HTML message
-const htmlMessage = "<strong>Note:</strong> Please contact donors before visiting.";
+const htmlMessage = "<strong>Note:</strong> Please contact donors if available.";
 </script>
 
 <template>
   <div>
     <!-- Image via CDN -->
-    <img src="https://via.placeholder.com/150" alt="Donor Image" />
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_kz9o-gAtl883jXVGs3JEb85XgWPbplT0UA&s" alt="Donor Image" />
 
     <h2>A+ Donors</h2>
     <p>Total Available Donors: {{ availableCount }}</p>
